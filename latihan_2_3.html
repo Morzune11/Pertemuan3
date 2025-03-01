@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="gambar/icon.png" sizes="16x16" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Div dan Span</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Judul/Header Website</h1>
+    </div>
+    <div id="main" style="display: block">
+      <div id="link">
+        <ul>
+          <li><a href="#">London</a></li>
+          <li><a href="#">Paris</a></li>
+          <li><a href="#">Tokyo</a></li>
+        </ul>
+      </div>
+      <br />
+      <div id="content">
+        <table class="Pendaftaran">
+          <h3
+            style="
+              position: absolute;
+              top: 377px;
+              background-color: white;
+              z-index: 99;
+              left: 30px;
+            "
+          >
+            Form Pendaftaran Mahasiswa Baru
+          </h3>
+          <tr>
+            <td class="td-1"><label for="nama_lengkap">Nama Lengkap</label></td>
+            <td><input type="text" id="nama_lengkap" name="nama_lengkap" /></td>
+          </tr>
+          <tr>
+            <td class="td-1"><label for="ttl">Tempat/Tanggal Lahir</label></td>
+            <td>
+              <input type="text" id="ttl" name="tempat" /> /
+              <input type="date" min="1989-01-01" max="1994-01-01" />
+            </td>
+          </tr>
+          <tr>
+            <td class="td-1"><label for="agama">Agama</label></td>
+            <td>
+              <select name="agama" id="agama">
+                <option value="">-Pilih-</option>
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="protestan">Protestan</option>
+                <option value="hindu">Hindu</option>
+                <option value="buddha">Buddha</option>
+                <option value="konghucu">Konghucu</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td class="td-1">Jenis Kelamin</td>
+            <td>
+              <input type="radio" id="l" name="jenis_kelamin" value="l" />
+              <label for="l">Laki-laki</label>
+              <input type="radio" id="p" name="jenis_kelamin" value="p" />
+              <label for="p">Perempuan</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="ijazah">No. Ijazah SMA/MA</label></td>
+            <td><input type="text" id="ijazah" name="ijazah" /></td>
+          </tr>
+          <tr>
+            <td><label for="foto">Foto(Ukuran File Maks. 20KB)</label></td>
+            <td><input type="file" name="foto" id="foto" /></td>
+          </tr>
+          <tr>
+            <td><label for="ayah">Nama Ayah</label></td>
+            <td><input type="text" name="ayah" id="ayah" /></td>
+          </tr>
+          <tr>
+            <td><label for="ibu">Nama Ibu</label></td>
+            <td><input type="text" name="ibu" id="ibu" /></td>
+          </tr>
+          <tr>
+            <td><label for="alamat">Alamat Rumah</label></td>
+            <td>
+              <textarea
+                name="alamat"
+                id="alamat"
+                cols="50"
+                rows="12"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="telp">No. Telp</label></td>
+            <td><input type="tel" name="telp" id="telp" /></td>
+          </tr>
+          <tr>
+            <td><label for="sekolah">Nama Sekolah Asal</label></td>
+            <td><input type="text" name="sekolah" id="sekolah" /></td>
+          </tr>
+          <tr>
+            <td><label for="jurusan">Jurusan Dipilih</label></td>
+            <td>
+              <select name="jurusan" id="jurusan">
+                <option value="">-PILIH-</option>
+                <option value="kom_akuntansi">Komputerisasi Akuntansi</option>
+                <option value="bisnis">Administrasi Bisnis</option>
+                <option value="tkk">Teknik Komputer Kontrol</option>
+                <option value="tl">Tenik Listrik</option>
+                <option value="mesin">Mesin Otomatis</option>
+                <option value="kereta">Perkerataapian</option>
+                <option value="ti">Teknologi Informasi</option>
+                <option value="akuntansi">Akuntansi</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Tahu informasi ini dari:</td>
+            <td>
+              <input type="checkbox" name="koran" id="koran" value="koran" />
+              <label for="koran">Koran</label>
+              <input
+                type="checkbox"
+                name="website"
+                id="website"
+                value="website"
+              />
+              <label for="website">Webiste</label>
+              <input
+                type="checkbox"
+                name="televisi"
+                id="televisi"
+                value="televisi"
+              />
+              <label for="televisi">Televisi</label>
+              <input type="checkbox" name="radio" id="radio" value="radio" />
+              <label for="radio">Radio</label>
+              <input type="checkbox" name="teman" id="teman" value="teman" />
+              <label for="teman">Teman</label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit" value="DAFTAR" />
+              <input type="reset" value="BATAL" />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <footer><i>copyright &#64;Moch. Arrizal SP_244311047 2025</i></footer>
+  </body>
+</html>
